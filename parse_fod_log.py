@@ -8,7 +8,7 @@ import time
 import datetime
 from dateutil import parser
 
-log_path = '/home/huangjinwei/桌面/main.log.02'
+log_path = ''
 
 time_pattern = r"([0-9]{2}?-[0-9]{2}? [0-9]{2}?:[0-9]{2}?:[0-9]{2}?\.[0-9]{3}?).*?"
 
