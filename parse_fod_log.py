@@ -73,7 +73,10 @@ def print_result():
 if len(sys.argv) > 1:
     log_path = sys.argv[1]
 else:
-    print("Usage: " + sys.argv[0] + " path/to/LogFile")
+    green_log(">> FOD LOG PARSE TOOL V1.0")
+    green_log(">> author: huangjinwei@meizu.com")
+    green_log(">> create time: 2018-08-06 11:00")
+    green_log(">> Usage: " + sys.argv[0] + " path/to/LogFile")
     quit()
 
 with open(log_path) as reader:
